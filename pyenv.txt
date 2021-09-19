@@ -14,3 +14,8 @@ $ python -- version
 
 $ pipenv install colorama
 
+
+· Ejecutar la aplciacion con python dentro de nuestro pipenv:
+
+python [nombre_archivo]  = python index.py or app.py...
+
