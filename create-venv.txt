@@ -1,0 +1,11 @@
+Create an Virtual venv python in django project:
+
+$ sudo apt-get install python3.8-venv
+
+$ mkdir python3
+
+$ python3 -m venv venv
+
+$ /my-project/$ source venv/bin/activate
+
+$ pip install --upgrade pip

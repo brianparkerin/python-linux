@@ -1,0 +1,49 @@
+Create an Virtual venv python in django project:
+
+$ sudo apt-get install python3.8-venv
+
+$ mkdir python3
+
+$ python3 -m venv venv
+
+$ pip install --upgrade pip
+
+
+Guia rapida de comandos para empezar un nuevo projecto en python y Django usando mongodb:
+
+python3 --version
+
+mkdir python3
+
+python3 -m venv venv
+
+source venv/bin/activate || source ./venv/bin/activate
+
+sudo apt-get install python3-pip
+
+python --version
+
+pip install --upgrade pip
+
+pip install django
+
+pip install gunicorn
+
+pip install pymongo
+
+pip freeze --local > requirements.txt
+
+django-admin startproject breedbuy
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+
+python manage.py createapp "nombre de la app"
+
+luego vamos settings, views, y urls para declarar y regisrar nuestra app...
+
+luego realizamos la primer migracion ejecutando...
+
+- python manage.py make migrations

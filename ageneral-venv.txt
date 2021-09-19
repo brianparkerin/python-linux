@@ -1,0 +1,116 @@
+
+CREAR ENTORNO VIRTUAL PARA FLASK, DJANGO & PYENV DENTRO DE UN ESPACIO EN ANACONDA....
+
+
+
+Previous commands:
+
+From VSCode Terminal Sapce:
+
+1). Salir de bash:
+
+$ source ~/.profile (Salir de bash)
+$ conda deactivate  (cerrar la ejecuccion de conda)
+
+
+2). Install python:
+
+$ sudo apt-get update
+$ sudo apt-get install python3 python3-venv python3-pip
+
+$ sudo apt-get update
+$ sudo apt-get -y upgrade
+
+$ python3 --version
+
+$ sudo apt-get install -y python3-pip
+
+$ python (python shell)
+
+
+
+
+3). Create & start a new project with venv:
+
+$ mkdir python3
+
+$ python3 -m venv venv
+
+$ source venv/bin/activate
+
+$ 
+
+$ pip install --upgrade pip
+
+$ python3 --version
+
+$ python 
+
+(venv) square@square:~/Desktop/stable-arbitrage-bot$ pip install flask
+Collecting flask....
+
+$ pip freeze
+
+
+4). Install Labries, requirements, runtime, etc & Start programing:
+
+$ pip install [library_name]
+
+
+__________________________________________________________________
+
+
+
+Crear entorno virtual de un projecto de python dentro de Anaconda...
+
+mkdir python3
+
+python3 -m venv venv
+
+/my-project/$ source venv/bin/activate
+
+pip install --upgrade pip
+
+
+_____________________________________________________________________________________
+
+
+
+Guia rapida de comandos para empezar un nuevo projecto en python y Django usando mongodb:
+
+python3 --version
+
+mkdir python3
+
+python3 -m venv venv
+
+source venv/bin/activate || source ./venv/bin/activate
+
+sudo apt-get install python3-pip
+
+python --version
+
+pip install --upgrade pip
+
+pip install django
+
+pip install gunicorn
+
+pip install pymongo
+
+pip freeze --local > requirements.txt
+
+django-admin startproject breedbuy
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+
+python manage.py createapp "nombre de la app"
+
+luego vamos settings, views, y urls para declarar y regisrar nuestra app...
+
+luego realizamos la primer migracion ejecutando...
+
+- python manage.py make migrations
