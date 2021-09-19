@@ -1,19 +1,16 @@
-## Prevous commands on linux, before start & install pipenv:
+· Prevous commands on linux, before start & install pipenv:
 
 
 
-## Create a enviroment for python Bots with pipenv:
+· Create a enviroment for python Bots with pipenv:
 
-python3 -- version
+$ python3 -- version
 
-pip3 install pipenv
+$ pip3 install pipenv
 
+$ pipenv shell
 
-Ver la Shell: 
+$ python -- version
 
-pipenv shell
-
-python -- version
-
-pipenv install colorama
+$ pipenv install colorama
 
