@@ -32,6 +32,52 @@ $ pipenv uninstall [module_name]
  $ create requirements.txt / Django==3.2.7 (as a module)
  
  $ pipenv instal -r requirements.txt
+ 
+ $ pipenv graph
+ 
+ $ pipenv check
+ 
+
+
+ - To update a version of any mdoule: 
+ 
+ $ pipenv install
+ 
+ $ pipenv check
+ 
+ 
+  - Deploy:
+  
+  $ pipenv lock
+  
+  $ pipenv install --ignore-pipfile
+  
+  
+  - Get out from pipenv:
+  
+  $ exit% / exit
+  
+  
+   - Reinitialize the pipenv:
+   
+   $ pipenv shell
+   
+   
+   - Remove the virtual env:
+   
+   $ pipenv --rm
+   
+   $ pipenv shell
+   
+   
+   Reinstall modules:
+   
+   $ pipenv install
+   
+   $ pipenv install --dev
+   
+   $ python index.py
+
 
 
 · Ejecutar la aplciacion con python dentro de nuestro pipenv:
