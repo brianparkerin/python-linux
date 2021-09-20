@@ -6,13 +6,32 @@
 
 $ python3 -- version
 
+
+ - Install module on packages:
 $ pip3 install pipenv
+
 
 $ pipenv shell
 
 $ python -- version
 
 $ pipenv install colorama
+
+$ pipenv lock -r
+
+$ pipenv uninstall [module_name]
+
+
+- Install modules on dev packages:
+
+ $ pipenv install [module-name] --dev
+
+
+ - To install Ddjango:
+ 
+ $ create requirements.txt / Django==3.2.7 (as a module)
+ 
+ $ pipenv instal -r requirements.txt
 
 
 · Ejecutar la aplciacion con python dentro de nuestro pipenv:
