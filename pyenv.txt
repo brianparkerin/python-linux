@@ -84,3 +84,25 @@ $ pipenv uninstall [module_name]
 
 python [nombre_archivo]  = python index.py or app.py...
 
+
+
+
+ 
+ 
+ sorces: 
+ 
+ Pipenv | Entornos virtuales de Python
+ https://www.youtube.com/watch?v=-XIsKyNWILo
+ 
+ Curso Python para Principiantes
+ https://www.youtube.com/watch?v=chPhlsHoEPo
+ 
+ ENTORNOS VIRTUALES CON PYTHON | ¿Para qué son?
+ https://www.youtube.com/watch?v=j5HfUYVyXBQ
+
+
+
+
+
+
+
