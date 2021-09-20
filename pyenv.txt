@@ -91,6 +91,10 @@ python [nombre_archivo]  = python index.py or app.py...
  
  sorces: 
  
+ https://pipenv.pypa.io/en/latest/
+ https://pypi.org/
+ https://www.djangoproject.com/download/
+ 
  Pipenv | Entornos virtuales de Python
  https://www.youtube.com/watch?v=-XIsKyNWILo
  
