@@ -1,4 +1,4 @@
-· Prevous commands on linux, before start & install pipenv:
+· Previous commands on linux, before start & install pipenv:
 
 
 
