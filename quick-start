@@ -1,0 +1,45 @@
+Iniciar proyecto nuevo desde cero con python para Flask en ubuntu linux:
+$ mkdir python3
+
+$ python3 -m venv venv
+
+$ cd venv
+
+$ ls
+
+/venv$ source bin/activate
+
+$ /home/square/Desktop/stable-arbitrage-bot/venv/bin/python3 -m pip install --upgrade pip
+
+$ pip list
+
+$ pip install [library_name]
+
+Reinicializar el entorno virtual sobre el que estas trabajando en un projecto en ubuntu Linux:
+/my-project$ cd venv
+
+/venv$ ls bin include lib lib64 pyvenv.cfg
+
+venv$ source bin/activate
+
+venv$ /home/square/Desktop/stable-arbitrage-bot/venv/bin/python3 -m pip install --upgrade pip
+
+/venv$ pip list
+
+/venv$ pip install flask
+
+Como salirse correctamente de un entorno virtual en python desde ubuntu Linux:
+/venv/bin/$ deactivate
+
+Como activar y desactivar correctamente un entorno virtual en python desde ubuntu Linux:
+Activar entorno virtual:
+$ cd venv
+
+$ ls
+
+/venv$ source bin/activate
+
+or... /my-project/$ source venv/bin/activate
+
+Desactivar entorno virtual:
+/venv/bin/$ deactivate
