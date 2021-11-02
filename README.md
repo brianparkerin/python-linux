@@ -1,5 +1,6 @@
-### python-linux
+# Python in linux Crash course
 
-## everything about python in linux. (eviroments, frameworks, etc...)
+##  Quick setup & first steps for python on ubuntu Linux
 
-## git, github or gitlab use tool
+#### everything about python in linux. (eviroments, frameworks, etc...)
+
